@@ -5,7 +5,6 @@ from nltk.tokenize import word_tokenize
 
 def find_list():
     f = open("D:/ChatBot/Untitled Folder/Ketan_lakum_final3.txt",'r')
-    # f = open("D:/ChatBot/link_generator_bot/all.txt", "r",encoding='windows-1252')
     lines = f.readlines()
     urls_list = []
     urls_keyword = []
